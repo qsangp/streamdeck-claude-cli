@@ -149,7 +149,7 @@ const actions = {
     return a;
   })(),
   '0,1': textAction('13-claude.png',    'Claude', 'claude\n', false),
-  '0,2': textAction('03-status.png',    'Status', '/status\n', false),
+  '0,2': textAction('14-cook.png',      'Cook',   '/cook\n', false),
   '0,3': textAction('04-reasoning.png', 'Reason', '/reasoning\n', false),
 
   '1,0': textAction('05-plan.png',      'Plan',   '/plan\n', false),
