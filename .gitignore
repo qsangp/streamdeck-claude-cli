@@ -1,0 +1,4 @@
+build/export/
+icons/_sheet.svg
+.DS_Store
+node_modules/
