@@ -148,7 +148,7 @@ const actions = {
     a.States = [{ Image: copyImage('01-launch.png'), Title: '' }];
     return a;
   })(),
-  '0,1': textAction('02-reset.png',     'Reset',  '/reset\n', false),
+  '0,1': textAction('13-claude.png',    'Claude', 'claude\n', false),
   '0,2': textAction('03-status.png',    'Status', '/status\n', false),
   '0,3': textAction('04-reasoning.png', 'Reason', '/reasoning\n', false),
 
@@ -159,7 +159,7 @@ const actions = {
 
   '2,0': textAction('09-continue.png',  'Go',     'tiếp tục\n', false),
   '2,1': textAction('10-commit.png',    'Push',   'commit và push các thay đổi giúp anh\n', false),
-  '2,2': textAction('13-claude.png',    'Claude', 'claude\n', false),
+  '2,2': textAction('02-reset.png',     'Reset',  '/reset\n', false),
   '2,3': textAction('12-explain.png',   'Debug',  'giải thích lỗi vừa rồi và đề xuất cách sửa\n', false),
 };
 
